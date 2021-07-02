@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCP System</title>
+
+    <link rel="stylesheet" href="app.component.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html">OCP</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Topics <i class="fa fa-caret-down"></i> </button>
+            <div class="dropdown-content">
+                <a routerLink="MernStackCourses">MERN Stack</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Language <i class="fa fa-caret-down"></i> </button>
+            <div class="dropdown-content">
+                <a routerLink="Englishcourses">English</a>
+                <a routerLink="Urducourses">Urdu</a>
+                <a routerLink="Frenchcourses">French</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Rating <i class="fa fa-caret-down"></i> </button>
+            <div class="dropdown-content">
+                <a routerLink="Rating1courses">1</a>
+                <a routerLink="Rating2courses">2</a>
+                <a routerLink="Rating3courses">3</a>
+                <a routerLink="Rating4courses">4</a>
+                <a routerLink="Rating5courses">5</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Level <i class="fa fa-caret-down"></i> </button>
+            <div class="dropdown-content">
+                <a routerLink="Beginnercourses">Beginner</a>
+                <a routerLink="Intermediatecourses">Intermediate</a>
+                <a routerLink="Expertcourses">Expert</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<router-outlet></router-outlet>

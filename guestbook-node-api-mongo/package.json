@@ -1,0 +1,22 @@
+{
+  "name": "guestbook-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guestbook.js",
+  "scripts": {
+    "start": "node guestbook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bson-objectid": "^2.0.1",
+    "cors": "*",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.14",
+    "node": "^16.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
